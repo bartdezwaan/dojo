@@ -1,0 +1,24 @@
+{
+    "name": "simgroep/dojo",
+    "description": "Basic composer library setup",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dojo\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dojo\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Bart de Zwaan",
+            "email": "freelance@bartdezwaan.nl"
+        }
+    ]
+}
